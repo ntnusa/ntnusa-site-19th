@@ -1,7 +1,7 @@
   <ul id="sdt_menu" class="sdt_menu">
     <li>
-      <a href="/">
-        <img src="/image/nav_bar_pic/1.gif" alt="首頁"/>
+      <a href="{{ site.baseurl }}">
+        <img src={{ "/image/nav_bar_pic/1.gif" | prepend: site.baseurl }} alt="首頁"/>
         <span class="sdt_active"></span>
         <span class="sdt_wrap">
           <span class="sdt_link">首頁</span>
@@ -9,43 +9,43 @@
       </a>
     </li>
     <li>
-      <a href="/about">
-        <img src="/image/nav_bar_pic/2.gif" alt="關於學生會"/>
+      <a href={{"/about" | prepend: site.baseurl }}>
+        <img src={{ "/image/nav_bar_pic/2.gif" | prepend: site.baseurl }} alt="關於學生會"/>
         <span class="sdt_active"></span>
         <span class="sdt_wrap">
           <span class="sdt_link">關於學生會</span>
         </span>
       </a>
       <div class="sdt_box" style="left: 0px; display: none;height:120px;">
-        <a href="/org">組織架構</a>
-        <a href="/law">自治規程</a>
-        <a href="/intro">部門介紹</a>
+        <a href={{"/org" | prepend: site.baseurl }}>組織架構</a>
+        <a href={{"/law" | prepend: site.baseurl }}>自治規程</a>
+        <a href={{"/intro" | prepend: site.baseurl }}>部門介紹</a>
       </div>
     </li>
     <li>
-      <a href="/deps" style="left: 0px;">
-        <img src="/image/nav_bar_pic/3.gif" alt="最新消息"/>
+      <a href={{"/deps" | prepend: site.baseurl }} style="left: 0px;">
+        <img src={{ "/image/nav_bar_pic/3.gif" | prepend: site.baseurl }} alt="最新消息"/>
         <span class="sdt_active"></span>
         <span class="sdt_wrap">
           <span class="sdt_link">最新消息</span>
         </span>
       </a>
       <div class="sdt_box" style="height:320px;">
-        <a href="/deps/president">會長 / 副會長</a>
-        <a href="/deps/secretariat">秘書處</a>
-        <a href="/deps/public">公關部</a>
-        <a href="/deps/activity">活動部</a>
-        <a href="/deps/right">權益部</a>
-        <a href="/deps/newsdp">新聞部</a>
-        <a href="/deps/academic">學術部</a>
-        <a href="/deps/finance">財務部</a>
-        <a href="/deps/publication">文宣部</a>
-        <a href="/deps/info">資訊部</a>
+        <a href={{ "/deps/president" | prepend: site.baseurl }}>會長 / 副會長</a>
+        <a href={{ "/deps/secretariat" | prepend: site.baseurl }}>秘書處</a>
+        <a href={{ "/deps/public" | prepend: site.baseurl }}>公關部</a>
+        <a href={{ "/deps/activity" | prepend: site.baseurl }}>活動部</a>
+        <a href={{ "/deps/right" | prepend: site.baseurl }}>權益部</a>
+        <a href={{ "/deps/newsdp" | prepend: site.baseurl }}>新聞部</a>
+        <a href={{ "/deps/academic" | prepend: site.baseurl }}>學術部</a>
+        <a href={{ "/deps/finance" | prepend: site.baseurl }}>財務部</a>
+        <a href={{ "/deps/publication" | prepend: site.baseurl }}>文宣部</a>
+        <a href={{ "/deps/info" | prepend: site.baseurl }}>資訊部</a>
       </div>
     </li>
     <li>
-      <a href="/dl">
-        <img src="/image/nav_bar_pic/4.gif" alt="文件下載"/>
+      <a href={{"/dl" | prepend: site.baseurl }}>
+        <img src={{ "/image/nav_bar_pic/4.gif" | prepend: site.baseurl }} alt="文件下載"/>
         <span class="sdt_active"></span>
         <span class="sdt_wrap">
           <span class="sdt_link">文件下載</span>
@@ -53,8 +53,8 @@
       </a>
     </li>
     <li>
-      <a href="/links">
-        <img src="/image/nav_bar_pic/5.gif" alt="友站連結"/>
+      <a href={{"/links" | prepend: site.baseurl }}>
+        <img src={{ "/image/nav_bar_pic/5.gif" | prepend: site.baseurl }} alt="友站連結"/>
         <span class="sdt_active"></span>
         <span class="sdt_wrap">
           <span class="sdt_link">友站連結</span>
@@ -62,8 +62,8 @@
       </a>
     </li>
     <li>
-      <a href="/contact">
-        <img src="/image/nav_bar_pic/6.gif" alt="聯絡我們"/>
+      <a href={{"/contact" | prepend: site.baseurl }}>
+        <img src={{ "/image/nav_bar_pic/6.gif" | prepend: site.baseurl }} alt="聯絡我們"/>
         <span class="sdt_active"></span>
         <span class="sdt_wrap">
           <span class="sdt_link">聯絡我們</span>
@@ -71,8 +71,8 @@
       </a>
     </li>
     <li>
-      <a href="/chatroom">
-        <img src="/image/nav_bar_pic/7.gif" alt="討論區"/>
+      <a href={{"/chatroom" | prepend: site.baseurl }}>
+        <img src={{ "/image/nav_bar_pic/7.gif" | prepend: site.baseurl }} alt="討論區"/>
         <span class="sdt_active"></span>
         <span class="sdt_wrap">
           <span class="sdt_link">討論區</span>
